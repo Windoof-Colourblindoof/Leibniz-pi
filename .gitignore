@@ -3,3 +3,4 @@ obj/Release/Pi.csprojAssemblyReference.cache
 .vs/Pi/v16/.suo
 obj/
 bin/
+Pi.csproj.user
