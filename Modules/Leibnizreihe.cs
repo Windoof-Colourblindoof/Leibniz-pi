@@ -1,6 +1,5 @@
 ﻿using DecimalMath;
 using System;
-using System.Globalization;
 
 namespace Leibnizreihe
 {
