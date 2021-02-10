@@ -26,7 +26,7 @@ namespace Leibnizreihe
                 try
                 {
                     Console.WriteLine("How many iterations should be executed?");
-                    Input = Convert.ToInt64(Console.ReadLine());
+                    Input = Convert.ToDecimal(Console.ReadLine());
                     return Input;
                 }
                 catch
