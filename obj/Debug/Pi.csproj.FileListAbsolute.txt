@@ -1,0 +1,10 @@
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Debug\Pi.exe.config
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Debug\Pi.exe
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Debug\Pi.pdb
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Debug\Pi.csprojAssemblyReference.cache
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Debug\Pi.csproj.CoreCompileInputs.cache
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Debug\Pi.exe
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Debug\Pi.pdb
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Debug\DecimalEx.dll
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Debug\DecimalEx.xml
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Debug\Pi.csproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\Pi.exe.config
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\Pi.exe
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\Pi.pdb
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\DecimalEx.dll
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\DecimalEx.xml
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.csprojAssemblyReference.cache
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.csproj.CoreCompileInputs.cache
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.csproj.CopyComplete
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.exe
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.pdb
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\Pi.exe.manifest
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\bin\Release\Pi.application
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.exe.manifest
+C:\Users\Maximilian\Desktop\Computer-Stuff\Coding\C#\Pi\obj\Release\Pi.application

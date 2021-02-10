@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pi.exe" version="1.0.0.0" publicKeyToken="55125d61fca2b00f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Pi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DecimalEx.dll" size="21504">
+      <assemblyIdentity name="DecimalEx" version="1.0.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CUUYdHJ/2ef3V3Mdk4mCH3nOoeXx3gCdOOl3wdJmueE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pi.exe" size="6128">
+      <assemblyIdentity name="Pi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VP5iXGgHETqTzBQmWGVDH8povq5vLaErUlpDtTvD3+E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Pi.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MAXIMILIAN-PC\Maximilian" issuerKeyHash="b48b7ba3f5c834a520ca893877c3feb83edd5fc9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3yu8TAWRivnY/fWlDfnS0YKwHOLfCdwAtW+NOQ/FdKE=</DigestValue></Reference></SignedInfo><SignatureValue>OZKqwIYBy6pyIWl9oI+QpexeY+KgiIKTMGAvPG1CX0CturIQ27iC2NJe+lA3deyI/0DPX/uBTtkMAzeHyQME6k2ah8hH0eLW3+Z90ZETjBxa27yFvgPMnKxtpDwys+cW8ZGoha/Z5tNC7SoG0xjECuoqTRYseGTfCojLI5MM/YM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4qxsfWtle/ZuX/sHbbEY3JOR6oX44aNAOq39XHs38oO124lk7TyNtfjZmTFAyTVxLHaTQtaUoWD3H1Trn0lYRvA4tzw2mj0GHLuhn9L/jHhi0Ct1Klwes2yi5NXu/PzfL5nVisZV9/dqjLDtOPhtE0Bx3DzsUdxyvjsYY9t3Zyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a174c50f398d6fb500dc09dfe21cb082d1d2f90da5f5fdd8f98a91054cbc2bdf" Description="" Url=""><as:assemblyIdentity name="Pi.exe" version="1.0.0.0" publicKeyToken="55125d61fca2b00f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MAXIMILIAN-PC\Maximilian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Dzbdi4ECrb4vPK7G45KdMXrM/305+9opKL4BrGnZqFU=</DigestValue></Reference></SignedInfo><SignatureValue>lqt8tUzySK/xgznWInfGFqkorJLs5nl7FBcgFPaG8gH5VAdbwhYjtook8bjxvXqLfhdZ2VZ7XDZ8YoQADRu4e91CKwcuCJ1mvwTJoPWyDarxq9GHgWtqLGqoLignHiR3HsL2mauMlid0XwElgNIyozNTrsJoeNonRkIPJxwbUUg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4qxsfWtle/ZuX/sHbbEY3JOR6oX44aNAOq39XHs38oO124lk7TyNtfjZmTFAyTVxLHaTQtaUoWD3H1Trn0lYRvA4tzw2mj0GHLuhn9L/jHhi0Ct1Klwes2yi5NXu/PzfL5nVisZV9/dqjLDtOPhtE0Bx3DzsUdxyvjsYY9t3Zyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQLBVW5l8KvoZH1WZbm84VvjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAATQBBAFgASQBNAEkATABJAEEATgAtAFAAQwBcAE0AYQB4AGkAbQBpAGwAaQBhAG4wHhcNMjEwMjEwMTMwMDA5WhcNMjIwMjEwMTkwMDA5WjA7MTkwNwYDVQQDHjAATQBBAFgASQBNAEkATABJAEEATgAtAFAAQwBcAE0AYQB4AGkAbQBpAGwAaQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOKsbH1rZXv2bl/7B22xGNyTkeqF+OGjQDqt/Vx7N/KDtduJZO08jbX42ZkxQMk1cSx2k0LWlKFg9x9U659JWEbwOLc8Npo9Bhy7oZ/S/4x4YtArdSpcHrNsouTV7vz83y+Z1YrGVff3aoyw7Tj4bRNAcdw87FHccr47GGPbd2cpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcvJ9+VwasJrwlfVVedpUKGgq5cFCdZpNfQMR0bNusZlhrYabv6J5FPvbZfljSH2KKq42YF8rytYphNcXh92ZAslOy7s494jYevL1NNamcsA59Xf/G+lTDJ1loat5XPYHRsgqUcs5Sbwid0+WqmsXGvQfXMMjMsCKNVJI0ODb0fY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
