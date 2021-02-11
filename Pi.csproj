@@ -78,10 +78,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Leibnizreihe.cs" />
+    <Compile Include="Modules\Leibnizreihe.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Modules\App.config" />
     <None Include="packages.config" />
     <None Include="Pi_TemporaryKey.pfx" />
   </ItemGroup>
